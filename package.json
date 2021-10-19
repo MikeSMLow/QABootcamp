@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome ./pom/tests"
+    "login-tests": "testcafe chrome ./pom/tests/Login.test.js",
+    "inboxpage-tests": "testcafe chrome ./pom/tests/InboxPage.test.js",
+    "projectpage-tests": "testcafe chrome ./pom/tests/ProjectPage.test.js",
+    "login-headless": "testcafe chrome:headless,firefox:headless ./pom/tests/Login.test.js --concurrency 2",
+    "smoke-tests": "testcafe chrome ./pom/tests --test-meta type=smoke"
   },
   "author": "msanchez",
   "license": "ISC",

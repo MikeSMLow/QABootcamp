@@ -11,3 +11,7 @@ export const CREDENTIALS = {
         PASSWORD: process.env.STANDARD_USER_PASSWORD
     }
 }
+
+export const PROJECTNAME = {
+    NAME: 'TestProject'
+}
