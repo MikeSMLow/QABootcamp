@@ -4,16 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "login-tests": "testcafe chrome ./pom/tests/Login.test.js",
-    "inboxpage-tests": "testcafe chrome ./pom/tests/InboxPage.test.js",
-    "projectpage-tests": "testcafe chrome ./pom/tests/ProjectPage.test.js",
-    "login-headless": "testcafe chrome:headless,firefox:headless ./pom/tests/Login.test.js --concurrency 2",
-    "smoke-tests": "testcafe chrome ./pom/tests --test-meta type=smoke"
+    "login-tests": "testcafe chrome ./pom/tests/Login.test.js -r allure",
+    "inboxpage-tests": "testcafe chrome ./pom/tests/InboxPage.test.js -r allure",
+    "projectpage-tests": "testcafe chrome ./pom/tests/ProjectPage.test.js -r allure",
+    "login-headless": "testcafe chrome:headless,firefox:headless ./pom/tests/Login.test.js --concurrency 2 -r allure",
+    "smoke-tests": "testcafe chrome ./pom/tests --test-meta type=smoke -r allure",
+    "lint-init": "eslint --init"
   },
   "author": "msanchez",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "testcafe": "^1.16.1"
+    "testcafe": "^1.16.1",
+    "testcafe-reporter-allure": "^1.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-plugin-testcafe": "^0.2.1"
   }
 }

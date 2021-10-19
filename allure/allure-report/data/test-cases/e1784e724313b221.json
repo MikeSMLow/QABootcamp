@@ -1,0 +1,54 @@
+{
+  "uid" : "e1784e724313b221",
+  "name" : "As a user I should not be able to login when the entered password is invalid",
+  "fullName" : "Login feature tests.As a user I should not be able to login when the entered password is invalid",
+  "historyId" : "dbf2d0dd17c59ea0fcb0d741a487b5d5",
+  "time" : {
+    "start" : 1634684237380,
+    "stop" : 1634684243882,
+    "duration" : 6502
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Login feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user I should not be able to login when the entered password is invalid"
+  }, {
+    "name" : "package",
+    "value" : "Login feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 94.0.4606.81 / macOS 10.15.7"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1784e724313b221.json",
+  "parameterValues" : [ "Chrome 94.0.4606.81 / macOS 10.15.7" ]
+}

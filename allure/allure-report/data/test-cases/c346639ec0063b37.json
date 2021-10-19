@@ -1,0 +1,54 @@
+{
+  "uid" : "c346639ec0063b37",
+  "name" : "As a user I should not be able to login when no password is specified",
+  "fullName" : "Login feature tests.As a user I should not be able to login when no password is specified",
+  "historyId" : "819a78492f9119cc289f79aefdcf79f7",
+  "time" : {
+    "start" : 1634684226218,
+    "stop" : 1634684231145,
+    "duration" : 4927
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Login feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user I should not be able to login when no password is specified"
+  }, {
+    "name" : "package",
+    "value" : "Login feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 94.0.4606.81 / macOS 10.15.7"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c346639ec0063b37.json",
+  "parameterValues" : [ "Chrome 94.0.4606.81 / macOS 10.15.7" ]
+}

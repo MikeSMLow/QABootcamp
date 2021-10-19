@@ -1,0 +1,54 @@
+{
+  "uid" : "a78776136a6ecbd8",
+  "name" : "As a user I should be able to login succesfully by providing valid credentials",
+  "fullName" : "Login feature tests.As a user I should be able to login succesfully by providing valid credentials",
+  "historyId" : "eb84b1680b8d66214483a4562e1556bf",
+  "time" : {
+    "start" : 1634684221283,
+    "stop" : 1634684235572,
+    "duration" : 14289
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Login feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user I should be able to login succesfully by providing valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 94.0.4606.81 / macOS 10.15.7"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a78776136a6ecbd8.json",
+  "parameterValues" : [ "Chrome 94.0.4606.81 / macOS 10.15.7" ]
+}

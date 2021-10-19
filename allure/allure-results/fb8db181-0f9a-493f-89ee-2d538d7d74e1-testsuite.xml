@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634684237380' stop='1634684237380'>
+    <name>Login feature tests</name>
+    <title>Login feature tests</title>
+    <test-cases>
+        <test-case start='1634684237380' status='passed' stop='1634684243882'>
+            <name>As a user I should not be able to login when the entered password is invalid</name>
+            <title>As a user I should not be able to login when the entered password is invalid</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 94.0.4606.81 / macOS 10.15.7'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been passed.</message>
+                <stack-trace>no error</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

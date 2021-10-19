@@ -1,0 +1,54 @@
+{
+  "uid" : "5829af472215a33f",
+  "name" : "As a user I should not be able to login when the email address format is invalid",
+  "fullName" : "Login feature tests.As a user I should not be able to login when the email address format is invalid",
+  "historyId" : "11071aec724f8cd4928631236dc08501",
+  "time" : {
+    "start" : 1634684230871,
+    "stop" : 1634684235517,
+    "duration" : 4646
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Login feature tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login feature tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user I should not be able to login when the email address format is invalid"
+  }, {
+    "name" : "package",
+    "value" : "Login feature tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 94.0.4606.81 / macOS 10.15.7"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5829af472215a33f.json",
+  "parameterValues" : [ "Chrome 94.0.4606.81 / macOS 10.15.7" ]
+}
