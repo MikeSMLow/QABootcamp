@@ -8,7 +8,7 @@
     "inboxpage-tests": "testcafe chrome ./pom/tests/InboxPage.test.js -r allure",
     "projectpage-tests": "testcafe chrome ./pom/tests/ProjectPage.test.js -r allure",
     "login-headless": "testcafe chrome:headless,firefox:headless ./pom/tests/Login.test.js --concurrency 2 -r allure",
-    "smoke-tests": "testcafe chrome ./pom/tests --test-meta type=smoke -r allure",
+    "smoke-tests": "testcafe chrome:headless ./pom/tests --test-meta type=smoke -r xunit:res.xml",
     "lint-init": "eslint --init"
   },
   "author": "msanchez",
